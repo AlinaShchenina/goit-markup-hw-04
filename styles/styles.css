@@ -378,6 +378,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #afb1b8;
 }
 .team-social-list {
   display: flex;
@@ -389,18 +390,20 @@ body {
 }
 
 .team-social-icon {
-  fill: #afb1b8;
+  display: block;
+  fill: currentColor;
 }
 
 .team-social-icon:hover,
 .team-social-icon:focus {
   fill: #ffffff;
+  background-color: var(--accent-color);
 }
 
 .team-social-link:hover,
 .team-social-link:focus {
   background-color: #2196f3;
-  fill: #ffffff;
+  color: #ffffff;
 }
 /*--------------------- client company----------- */
 .clients {
