@@ -89,9 +89,10 @@ body {
 .header {
 }
 
-.header-contact1,
+.header-contact1 {
+}
+
 .header-contact2 {
-  display: inline-block;
 }
 .studio-header {
   color: var(--second-title-color);
@@ -154,6 +155,11 @@ body {
 .header-contact:last-child {
   margin-left: 50px;
 }
+
+.header-contact {
+  display: inline-block;
+}
+
 .contact-icon {
   fill: currentColor;
   margin-right: 10px;
