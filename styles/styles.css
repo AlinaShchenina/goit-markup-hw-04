@@ -89,10 +89,9 @@ body {
 .header {
 }
 
-.header-contact1 {
-}
-
+.header-contact1,
 .header-contact2 {
+  display: inline-block;
 }
 .studio-header {
   color: var(--second-title-color);
