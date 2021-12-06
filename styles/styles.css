@@ -157,15 +157,22 @@ body {
 }
 
 .header-contact-item {
-  display: inline;
 }
 
-.contact-icon {
+.contact-icon1 {
   fill: currentColor;
   margin-right: 10px;
   width: 16px;
   height: 12px;
   display: inline;
+}
+.contact-icon2 {
+  fill: currentColor;
+  margin-right: 10px;
+  width: 10px;
+  height: 16px;
+  vertical-align: bottom;
+  display: inline-block;
 }
 /* --------MAIN-------*/
 .bg-container {
