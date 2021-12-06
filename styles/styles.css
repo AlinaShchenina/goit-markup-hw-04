@@ -156,8 +156,8 @@ body {
   margin-left: 50px;
 }
 
-.header-contact {
-  display: inline-block;
+.header-contact-item {
+  display: inline;
 }
 
 .contact-icon {
@@ -165,7 +165,7 @@ body {
   margin-right: 10px;
   width: 16px;
   height: 16px;
-  display: inline-block;
+  display: inline;
 }
 /* --------MAIN-------*/
 .bg-container {
